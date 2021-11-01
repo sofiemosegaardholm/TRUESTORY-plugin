@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background: #fffff;
+    background: #dcd7e5;
 }
 
 .login-form {
@@ -24,7 +24,7 @@ body
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; 
-    z-index: 1;
+    z-index: 2;
 }
 
 .login-face {
@@ -213,8 +213,8 @@ input#submitBtn {
 
 #promotion-header-title {
     text-align: left;
-    font-family: Montserrat;
-    color: #fd5c21;
+    font-family: lato;
+    color: #2e1336;
     font-size: 30px;
     font-weight: 600;
     line-height: 1.3;
