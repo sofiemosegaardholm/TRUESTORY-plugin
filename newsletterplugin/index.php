@@ -19,11 +19,11 @@ function newsletter_form()
     $content .= '<img src=" '.plugins_url("newsletterplugin/img/bog-billede.png").' " ';
     $content .= 'alt="login-face"></div>';
     $content .= '<div id="promotion-header">';
-    $content .= '<h1 id="promotion-header-title">STRONG AND FIT IN <span>2020</span></h1></div>';
+    $content .= '<h1 id="promotion-header-title"> Få 10% ved tilmelding af nyhedsbrev</h1></div>';
     $content .= '<section class="form">';
     $content .= '<form action="#">';
     $content .= '<div id="promotion-body">';
-    $content .= '<p id="promotion-body-text">Sign up for our Newsletter and learn to get fit at home with 5 Effective Low-Impact Workouts!</p>';
+    $content .= '<p id="promotion-body-text">Tilmeld dig vores nyhedsbrev og få 10%, samt en masse gode og ekslusive tilbud.</p>';
     $content .= '</div>';
     $content .= '<div class="input">';
     $content .= '<input type="text" id="username" placeholder="John Mckinsey" name="username" required><i class="fa fa-user fa-1x"></i>';
