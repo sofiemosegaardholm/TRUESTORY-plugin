@@ -1,11 +1,11 @@
 <?php
 /*
 * Plugin Name: WordPress Newsletter Plugin
-* Plugin URI: http://wpcollaborations.startlearning.dk/
+* Plugin URI: http://truestory.sofiemosegaard.dk/
 * Description: This is a WordPress Newsletter Plugin based on HTML5, CSS, JS and PHP
-* Version: 2.9.7
-* Author: Murat Kilic
-* Author: http://wpcollaborations.startlearning.dk/
+* Version: 1.6
+* Author: Signe Juel, Sofie Holm & Signe Krøner
+* Author: http://truestory.sofiemosegaard.dk/
 * License: GPL2
 */
 
