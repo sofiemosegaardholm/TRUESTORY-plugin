@@ -1,10 +1,10 @@
-<?php
+<<?php
 /*
 * Plugin Name: WordPress Newsletter Plugin
 * Plugin URI: http://truestory.sofiemosegaard.dk/
 * Description: This is a WordPress Newsletter Plugin based on HTML5, CSS, JS and PHP
 * Version: 1.6
-* Author: Signe Juel, Sofie Holm & Signe Krøner
+* Author: Signe Juel, Sofie Holm og Signe Krøner
 * Author: http://truestory.sofiemosegaard.dk/
 * License: GPL2
 */
@@ -16,7 +16,7 @@ function newsletter_form()
     $content .= '<div class="login-form">';
     $content .= '<div class="popupCloseButton">X</div>';
     $content .= '<div class="login-face">';
-    $content .= '<img src=" '.plugins_url("newsletterplugin/img/bog-billede.png").' " ';
+    $content .= '<img src=" '.plugins_url("newsletterplugin/img/parbillede.jpg").' " ';
     $content .= 'alt="login-face"></div>';
     $content .= '<div id="promotion-header">';
     $content .= '<h1 id="promotion-header-title"> Få 10% ved tilmelding af nyhedsbrev</h1></div>';
@@ -32,7 +32,7 @@ function newsletter_form()
     $content .= '<input type="email" id="email" placeholder="Skriv din mail her..." name="email" required><i class="fa fa-envelope fa-1x"></i>';
     $content .= '</div>';
     $content .= '<div id="submitForm">';
-    $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Subscribe Newsletter!">';
+    $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Tilmeld dig nyhedsbrevet!">';
     $content .= '</div>';
     $content .= '<div id="promotion-footer">';
     $content .= '<p id="promotion-footer-text">Ja, jeg vil gerne modtage nyhedsbreve fra Truestory. Husk du kan altid afmelde dig vores nyhedsbreve!</p>';
@@ -54,9 +54,9 @@ function newsletter_form()
     {
         wp_enqueue_style('fontAwesomCDN', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
         
-        wp_enqueue_style('CustomFontMontserrat','https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap');
+		wp_enqueue_style('font-lato','https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');        
         
-        wp_enqueue_style('CustomFontRoboto','https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+      	wp_enqueue_style('CustomFontRoboto','https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
         
         wp_enqueue_style('CustomStylesheet', plugins_url('newsletterplugin/css/style.css'));
         
